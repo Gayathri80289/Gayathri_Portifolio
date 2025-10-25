@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N. Gayathri Reddy — Portfolio</title>
+  <meta name="description" content="N. Gayathri Reddy — Java Developer | Backend Developer | Portfolio">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="mark">NG</div>
+        <div>
+          <div style="font-weight:800">N. Gayathri Reddy</div>
+          <div style="font-size:12px;color:var(--muted);margin-top:2px">
+            Java Full Stack Developer • Java(Core & Advanced)
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="home" class="hero">
+        <div class="intro">
+          <div class="badge">Hello —</div>
+          <h1 class="fade-up">I'm <span class="accent">N. Gayathri Reddy</span></h1>
+          <p class="fade-up">Computer Science and Engineering • Backend Developer • Java Developer</p>
+
+          <div class="cta fade-up">
+            <button class="btn primary" onclick="scrollToSection('projects')">View Projects</button>
+            <a class="btn" href="#contact">Contact</a>
+          </div>
+
+          <p class="muted">Graduated from TKR Engineering College and specialize in Java Full Stack development build backend services and Java applications. Browse my projects below — click to view details and source links.</p>
+        </div>
+
+        <aside class="profile-card fade-up">
+          <div class="profile-face">
+  <img src="Assets\Profile.jpg" alt="Profile Picture">
+</div>
+          <div class="profile-info">
+           
+        </aside>
+      </section>
+
+      <!-- About -->
+      <section id="about">
+        <div class="section-title">
+          <h2>About</h2><div class="line"></div>
+        </div>
+        <div class="about">
+          <div class="text">
+            <p>Hi, I'm Gayathri — I completed my graduation at TKR Engineering College and work mainly with Java for backend development. I enjoy designing clean APIs, solving backend problems, and building robust server-side systems.</p>
+
+            <div class="skills">
+              <div class="skill"><div class="dot"></div><div><strong>HTML</strong><small>Markup & structure</small></div></div>
+              <div class="skill"><div class="dot"></div><div><strong>CSS</strong><small>Layout & responsive</small></div></div>
+              <div class="skill"><div class="dot"></div><div><strong>JavaScript</strong><small>DOM & interactivity</small></div></div>
+            </div>
+          </div>
+
+          <div class="card quick-facts">
+            <h3>Quick Facts</h3>
+            <p class="muted">Graduation: TKR Engineering College<br>Role: Java Developer<br>Interested in: Backend, APIs, Cloud</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <div class="section-title">
+          <h2>Skills</h2><div class="line"></div>
+        </div>
+        <div class="skills">
+          <div class="skill fade-up"><div class="dot"></div><div><strong>Frontend</strong><small>HTML,CSS,JavaScript</small></div></div>
+          <div class="skill fade-up"><div class="dot"></div><div><strong>Backend</strong><small>Java(core & Advanced)</small></div></div>
+          <div class="skill fade-up"><div class="dot"></div><div><strong>Databases</strong><small>MySQL, Oracle</small></div></div>
+           <div class="skill fade-up"><div class="dot"></div><div><strong>Tools</strong><small>Git,Eclipse,GitHub</small></div></div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <div class="section-title">
+          <h2>Projects</h2><div class="line"></div>
+        </div>
+        <div class="projects">
+          <article class="card fade-up">
+            <h3>Project 1 — [Restaurant-POS]</h3>
+            <p class="muted">An intuitive Point-of-Sale system for efficient restaurant order and billing management.</p>
+            <div class="tags"><span class="tag">Java</span><span class="tag">MYSQL</span><span class="tag">GUI</span></div>
+            <div class="card-buttons">
+              <button class="btn" onclick="alert('Add project details')">Details</button>
+              <a class="btn primary" href="https://github.com/Gayathri80289/Restaurant-pos">Source</a>
+            </div>
+          </article>
+
+          <article class="card fade-up">
+            <h3>Project 2 — [BankAccountSys]</h3>
+            <p class="muted">An application to manage bank accounts, transactions, and customer details securely.</p>
+            <div class="tags"><span class="tag">Java</span><span class="tag">HTML,CSS</span><span class="tag">MYSQL</span></div>
+            <div class="card-buttons">
+              <button class="btn" onclick="alert('Add project details')">Details</button>
+              <a class="btn primary" href="https://github.com/Gayathri80289/BankAccountSys">Source</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="section-title">
+          <h2>Contact</h2><div class="line"></div>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <strong>GitHub</strong>
+            <div class="muted">https://github.com/Gayathri80289</div>
+          </div>
+          <div class="contact-item">
+            <strong>LinkedIn</strong>
+            <div class="muted">https://www.linkedin.com/in/gayathri-namireddy-b7b7b2315/</div>
+          </div>
+          <div class="contact-item">
+            <strong>Email</strong>
+            <div class="muted">gayathrinamireddy2003@gmail.com</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Built with Java,HTML,CSS,JS © <span id="year"></span> N. Gayathri Reddy
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
